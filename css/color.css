@@ -1,2 +1,36 @@
 /* CSS COLOR */
 /* **************************************************************** */
+:root{
+    --colorgrey:rgba(248, 248, 248, 1);
+    --colorblue: rgba(35, 133, 224, 1);
+    --colorblack:rgba(0, 0, 0, 1);
+    --colorwhite:rgba(255, 255, 255, 1);
+
+
+    
+}
+/**PAGINA HEADER**/
+/* **************************************************************** */
+header{
+    background-color: var(--colorgrey);
+
+}
+
+
+.navegador{
+    color:var(--colorblack);
+    
+}
+
+
+/**PAGINA ZIGZAG**/
+/* **************************************************************** */
+
+
+/**PAGINA FOOTER**/
+/* **************************************************************** */
+footer{
+    background-color: var{var(--colorblue)};
+}
+
+
