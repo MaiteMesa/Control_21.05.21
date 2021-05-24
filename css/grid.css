@@ -1,7 +1,6 @@
 /* CSS GRID */
 /* **************************************************************** */
 
-
 /**LAYOUT HEADER**/
 /* **************************************************************** */
 /*Crear que el header sea un grid, con 2 columnas y 1 sola fila*/
@@ -10,4 +9,14 @@ header {
   grid-template-columns: repeat(2, auto);
   grid-template-rows: 80px;
   padding: 5px 25px;
+}
+/**LAYOUT ZIGZAG**/
+/* **************************************************************** */
+/*Crear un section que sea un grid, con 2 columnas y 3 filas, con un espacio de 20px*/
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 690px);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px;
+  padding: 0px 20px;
 }
