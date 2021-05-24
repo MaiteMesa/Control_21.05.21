@@ -1,13 +1,8 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
-/*Crear que el header sea un grid, con 2 columnas y 1 sola fila*/
-header {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 80px;
-  padding: 5px 25px;
-}
+/**LAYOUT HEADER**/
+/* **************************************************************** */
 
 /*Colocar al navegador, que es un hijo de header, en la segunda columna*/
 nav {
@@ -20,7 +15,23 @@ nav {
   grid-template-columns: repeat(4, auto);
   align-self: center;
   grid-gap: 40px; /**No me hace ni caso**/
-  }
-
+}
 
 /*Hacer que ocupa img menos espacio en la columnna, no sé como hacerlo*/
+
+/**LAYOUT BANNER**/
+/* **************************************************************** */
+
+body {
+  height: 1440px;
+}
+
+.banner {
+  height: 450px;
+}
+
+/**LAYOUT ZIGZAG**/
+/* **************************************************************** */
+
+/**LAYOUT FOOTER**/
+/* **************************************************************** */

@@ -1,2 +1,13 @@
 /* CSS GRID */
 /* **************************************************************** */
+
+
+/**LAYOUT HEADER**/
+/* **************************************************************** */
+/*Crear que el header sea un grid, con 2 columnas y 1 sola fila*/
+header {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 80px;
+  padding: 5px 25px;
+}
