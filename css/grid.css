@@ -20,3 +20,14 @@ section {
   grid-gap: 20px;
   padding: 0px 20px;
 }
+
+/**LAYOUT FOOTER**/
+/* **************************************************************** */
+/*Crear un container que sea un grid, con 4 columnas y 2 filas*/
+.containerFooter{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    
+}
+

@@ -44,7 +44,32 @@ body {
 }
 
 .parrafo1 {
-    align-self: center;
+  align-self: center;
 }
 /**LAYOUT FOOTER**/
 /* **************************************************************** */
+
+/**Colocarlos en el grid padre*/
+.redesSociales {
+  grid-column: 1 /1;
+}
+.sobreNosotros {
+  grid-column: 2 /2;
+}
+.terminos {
+  grid-column: 4 / span-1;
+}
+.copyright {
+  grid-row: 2;
+  grid-column: 2/ span-1;
+}
+
+/*Colocar a footer abajo, crear un footer ficticio**/
+#main{
+    height: 724px;
+    width: 1024px;
+}
+#footer{
+    height: 300px;
+    width: 1024px;
+}
